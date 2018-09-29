@@ -1754,7 +1754,7 @@ input, select, textarea {
 
 	#nav {
 		text-align: center;
-		height: 4.25em;
+		height: 3.75em;
 		cursor: default;
 	}
 
@@ -1765,8 +1765,8 @@ input, select, textarea {
 			width: 1em;
 			height: 1em;
 			line-height: 0.9em;
-			font-size: 2.35em;
-			margin: 0 0.25em 0 0.25em;
+			font-size: 2.15em;
+			margin: 0 0.20em 0 0.20em;
 			opacity: 0.35;
 			outline: 0;
 			-moz-transition: opacity .25s ease-in-out;
