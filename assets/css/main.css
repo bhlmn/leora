@@ -188,12 +188,24 @@ input, select, textarea {
 				width: 70em;
 			}
 
+			.image.tips {
+				display: block;
+				width: 100%;
+				margin: 0 0 2em 0;
+			}
+
 		}
 
 		@media screen and (max-width: 1280px) {
 
 			.container {
 				width: calc(100% - 100px);
+			}
+
+			.image.tips {
+				display: block;
+				width: 100%;
+				margin: 0 0 2em 0;
 			}
 
 		}
@@ -204,12 +216,34 @@ input, select, textarea {
 				width: calc(100% - 100px);
 			}
 
+			.reverse {
+				display: flex;
+				flex-direction: column-reverse;
+			}
+
+			.image.tips {
+				display: block;
+				width: 100%;
+				margin: 2em 0 0 0;
+			}
+
 		}
 
 		@media screen and (max-width: 736px) {
 
 			.container {
 				width: calc(100% - 40px);
+			}
+
+			.reverse {
+				display: flex;
+				flex-direction: column-reverse;
+			}
+
+			.image.tips {
+				display: block;
+				width: 100%;
+				margin: 2em 0 0 0;
 			}
 
 		}
@@ -1672,7 +1706,7 @@ input, select, textarea {
 		input[type="reset"].style1,
 		button.style1,
 		.button.style1 {
-			background: #e97770 url("images/overlay.png");
+			background: #e28d86 url("images/overlay.png");
 			color: #fff;
 		}
 
@@ -1850,7 +1884,7 @@ input, select, textarea {
 		}
 
 		.feature-list h3 {
-			color: #e97770 !important;
+			color: #e28d86 !important;
 			margin: -0.35em 0 0.75em 0;
 			font-size: 1.15em;
 			letter-spacing: 0.05em;
@@ -1987,13 +2021,13 @@ input, select, textarea {
 			}
 
 		.wrapper.style1 {
-			background: #e97770 url("images/overlay.png");
+			background: #e28d86 url("images/overlay.png");
 			color: #eee;
 			color: rgba(255, 255, 255, 0.75);
 		}
 
 			.wrapper.style1 .title {
-				background: #e97770 url("images/overlay.png");
+				background: #e28d86 url("images/overlay.png");
 				color: #fff;
 			}
 
@@ -2872,7 +2906,7 @@ input, select, textarea {
 			}
 
 				#logo h1 {
-					font-size: 2.2em;
+					font-size: 3em;
 					letter-spacing: 0.2em;
 				}
 
