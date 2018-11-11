@@ -2575,7 +2575,7 @@ input, select, textarea {
 		/* Footer */
 
 			#footer .feature-list {
-				/*border-top: solid 4px rgba(255, 255, 255, 0.05)*/;
+				/*border-top: solid 4px rgba(255, 255, 255, 0.05);*/
 				padding-top: 4em;
 			}
 
